@@ -44,7 +44,7 @@ function Footer(){
                     </ul>
                 </div>
             </div>
-            <div className="footer-div2">
+            <div className="footer-div2 .copy-right">
                 <div className="main-div5">
                     <span> &copy; Copy Right 2023,All rights Reserved | HOME SERVICE</span>
                 </div>

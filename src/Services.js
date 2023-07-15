@@ -1,8 +1,8 @@
-import img1 from "./images/serviceImg/paint.jpg"
-import img2 from "./images/serviceImg/plumbing.jpg"
-import img3 from "./images/serviceImg/electric.jpg"
-import img4 from "./images/serviceImg/packAndMov.jpg"
-import img5 from "./images/serviceImg/interior.jpg"
+import img1 from "./assets/serviceImg/paint.jpg";
+import img2 from "./assets/serviceImg/plumbing.jpg";
+import img3 from "./assets/serviceImg/electric.jpg";
+import img4 from "./assets/serviceImg/packAndMov.jpg";
+import img5 from "./assets/serviceImg/interior.jpg";
 
 export const Services=[
     {

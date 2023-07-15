@@ -1,0 +1,40 @@
+.work{
+    display: flex;
+    flex-direction:column;
+    width:80%;
+    align-items:center;
+    margin: 10px auto;
+    padding: 0px 20px;
+}
+.work-div-2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.work-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    text-align: justify;
+    margin:15px 10px;
+    width: auto;
+    border-radius: 20px;
+    background-color: rgb(243, 218, 241);
+    width: 340px;
+}
+.work-heading{
+    font-size:30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.work-card-heading{
+    font-size:20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    margin:10px 0px;
+}
+.work-card-content{
+    font-size:18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

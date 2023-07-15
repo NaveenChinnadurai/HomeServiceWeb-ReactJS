@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Styles/features.css'
-import img1 from '../images/all.jpg'
+import img1 from '../assets/all.jpg'
 
 function Features() {
   return (
