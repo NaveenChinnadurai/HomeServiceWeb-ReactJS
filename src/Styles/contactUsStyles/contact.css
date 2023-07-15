@@ -1,0 +1,15 @@
+.contact-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0px;
+}
+.details{
+    width: 70%;
+    margin:0px auto;
+    font-size: 20px;
+}
+.para{
+    margin: 20px 0px;
+}

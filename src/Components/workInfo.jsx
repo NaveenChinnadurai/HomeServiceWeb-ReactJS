@@ -1,5 +1,5 @@
 import React from 'react';
-import "../Styles/WorkInfo.css";
+import "../Styles/homeStyles/workInfo.css";
 
 function WorkInfo() {
   return (

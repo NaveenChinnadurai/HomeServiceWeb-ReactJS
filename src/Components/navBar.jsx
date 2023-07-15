@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../Styles/navBar.css";
+import "../Styles/homeStyles/navBar.css";
 function Navbar() {
     return(
         <div className="nav-div1">
