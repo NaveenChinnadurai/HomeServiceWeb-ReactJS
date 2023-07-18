@@ -1,5 +1,5 @@
 import React from "react";
-import "../Styles/homeStyles/footer.css";
+import "../Styles/footer.css";
 import {FaFacebookSquare as FB,FaWhatsapp as WA,FaTwitter as Twit,FaInstagram as IG,FaLinkedin as Li} from "react-icons/fa"
 function Footer(){
     return (

@@ -1,0 +1,75 @@
+.divForm{
+    width: 80%;
+    margin: 10px auto;
+}
+.formTitle{
+    width: 90%;
+}
+.formTitle>h2{
+    margin: 10px;
+}
+p{
+    font-size: 18px;}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+}
+.formHeading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formContent{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    padding: 20px;
+    margin: 15px;
+    background-color: lightblue;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+.formInputs{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.formInputs>input{
+    width: 80%;
+    margin: 5px;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.textArea{
+    height: 100px;
+    width: 300px;
+    margin-top: 10px;
+    padding: 5px;
+}
+.imgDiv{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:300px ;
+}
+.contactImg{
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+}
+.subBtn>button{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    width: 100px;
+    border-radius: 10px;
+}

@@ -1,13 +1,13 @@
 import React from "react";
 
-import "../Styles/homeStyles/navBar.css";
+import "../Styles/navBar.css";
 function Navbar() {
     return(
         <div className="nav-div1">
             <div className="subdiv1">
                 <div className="title">
-                    <p>HOME</p>
-                    <p>SERVICES</p>
+                    <span>HOME</span>
+                    <span>SERVICES</span>
                 </div>
                 <div className="nav-titles">
                     <ul className="list1">
