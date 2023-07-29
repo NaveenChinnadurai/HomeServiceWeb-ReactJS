@@ -1,11 +1,11 @@
 import React from 'react'
-import "../Styles/contactUsStyles/contactForm.css"
-import contactImg from '../assets/contactPage/contact1.jpg'
+import "../../Styles/contactStyles/contactForm.css"
+import contactImg from '../../assets/contactPage/contact1.jpg'
 function ContactForm() {
   return (
     <div className='divForm'>
         <div className="formTitle">
-              <h2>Contact Form:</h2>
+              <h2>CONTACT FORM</h2>
               <p>You can also use the contact form below to send us a message directly. Please provide your name, email address, and a brief description of your inquiry, and we will get back to you as soon as possible.</p>
         </div>
         <div className="form">

@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Styles/homeStyles/count.css'
+import '../../Styles/homeStyles/count.css'
 function count() {
   return (
     <div className="count">

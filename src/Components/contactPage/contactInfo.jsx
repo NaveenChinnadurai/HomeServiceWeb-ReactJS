@@ -1,20 +1,20 @@
 import React from 'react'
-import "../Styles/contactUsStyles/contactInfo.css"
+import "../../Styles/contactStyles/contactInfo.css"
 import {FiMail as Mail} from 'react-icons/fi';
 import {AiOutlinePhone as Phone} from 'react-icons/ai';
 import {FaLocationDot as Location,FaHandshake as HandShake} from 'react-icons/fa6'
 function ContactInfo() {
+  const text="We'd love to hear from you! If you have any questions, suggestions, or feedback, please don't hesitate to reach out to us. Our team is here to assist you and provide the information you need."
   return (
     <div className='center-column contactDiv'>
         <h1 className='contact'>Get in Touch With Us </h1>
+        <div className="contactTitle">
+          <p>{text}</p>
+        </div>
         <div className="center-row details">
-            <div className="contactTitle">
-              <p>We'd love to hear from you! If you have any questions, suggestions, or feedback, please don't hesitate to reach out to us. Our team is here to assist you and provide the information you need.</p>
-            </div>
             <div className='para'>
               <span><Mail className='icons'/></span>
               <h3>General Inquiries:</h3>
-              {/* <p>For general inquiries/assistance</p><br/> */}
               <p className='mg'>Mail Us on </p>
               <p>info@example.com</p>
             </div>
@@ -35,9 +35,9 @@ function ContactInfo() {
               <h3>Main Branch:</h3>
               <p>1/64,fourth Street<br/>French Colony,<br/>Coimbatore-606 704,<br/>Tamil Nadu,<br/>India</p>
             </div>
-            <div className="">
-                <p>*Please note that our physical location is for administrative purposes only, and we do not offer direct customer support at this address.</p>
-            </div>
+        </div>
+        <div>
+            <p>*Please note that our physical location is for administrative purposes only, and we do not offer direct customer support at this address.</p>
         </div>
     </div>
   )

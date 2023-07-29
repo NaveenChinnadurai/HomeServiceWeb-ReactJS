@@ -11,10 +11,19 @@
     background-color: black;
     color: white;
 }
+.home-icon{
+    font-size: 20px;
+}
 .subdiv1{
     display: flex;
-    width: 40%;
+    width: 50%;
     padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.title-icons{
+    display: flex;
+    width: 20%;
     justify-content: space-between;
     align-items: center;
 }
@@ -24,8 +33,12 @@
 .title{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
-    padding: 0px;
-    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.home-icon-title{
+    margin-left: -25px;
 }
 .nav-titles{
     width: 70%;
@@ -33,7 +46,7 @@
 .list1{
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .subdiv2{

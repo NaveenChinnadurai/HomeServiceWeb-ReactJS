@@ -1,0 +1,29 @@
+.founderInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.founderInfo>h1{
+    font-size: 45px;
+    margin: 10px 0px;
+}
+.foundersDetails{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 10px auto;
+}
+.founderImg{
+    height: 200px;
+    border-radius: 50%;
+    margin: 10px 0px;
+}
+.founder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.founder>span{
+    font-size: 20px;
+}

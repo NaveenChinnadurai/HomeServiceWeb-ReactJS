@@ -1,0 +1,35 @@
+.aboutPage{
+    margin: 0px auto;
+}
+.aboutBanner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end ;
+    height: 50vh;
+    background-image: url("../../assets/aboutImage5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -50px;
+}
+.aboutBanner>h2{
+    font-size: 50px;
+    margin:5;
+    font-weight: bold;
+}
+.aboutText{
+    font-size: 25px;
+}
+.btn{
+    width: fit-content;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: rgb(58, 17, 206);
+    color: white;
+    border-radius: 20px;
+    margin: 10px;
+}
+.para2{
+    width: 80%;
+    margin:10px auto
+}

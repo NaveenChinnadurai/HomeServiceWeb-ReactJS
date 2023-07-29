@@ -1,8 +1,3 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
 .footer{
     border-top-right-radius: 50px;
     border-top-left-radius: 50px;
@@ -21,6 +16,9 @@
     align-items: center;
     justify-content: space-evenly;
 }
+.service-div>h2,.reachUs-div>h2{
+    margin-left: -100px;
+}
 .img-div{
     background-image: url("../assets/logo.png");
     height: 150px;
@@ -34,10 +32,6 @@
     display: flex;
     justify-content: space-between;
 }
-.icons{
-    font-size: 30px;
-    margin: 10px;
-}
 .list{
     height:60%;
     display: flex;
@@ -48,8 +42,15 @@
     font-weight: bolder;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-li{
-    list-style: none;
+.icon{
+    color: black;
+    font-size: 18px;
+}
+.ic{
+    margin-bottom: -4px;
+}
+.mail{
+    margin-right: 5px;
 }
 .copy-right{
     width:500px;
@@ -66,6 +67,5 @@ li{
     border-top-right-radius: 30px;
 }
 .dpp{
-    margin: 5px 10px;
+    margin: 5px 0px;
 }
- 

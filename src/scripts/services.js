@@ -1,8 +1,8 @@
-import img1 from "./assets/serviceImg/paint.jpg";
-import img2 from "./assets/serviceImg/plumbing.jpg";
-import img3 from "./assets/serviceImg/electric.jpg";
-import img4 from "./assets/serviceImg/packAndMov.jpg";
-import img5 from "./assets/serviceImg/interior.jpg";
+import img1 from "../assets/serviceImg/paint.jpg";
+import img2 from "../assets/serviceImg/plumbing.jpg";
+import img3 from "../assets/serviceImg/electric.jpg";
+import img4 from "../assets/serviceImg/packAndMov.jpg";
+import img5 from "../assets/serviceImg/interior.jpg";
 
 export const Services=[
     {
@@ -13,7 +13,7 @@ export const Services=[
     },
     {
         id:2,
-        serviceName:'plumbing Service',
+        serviceName:'Plumbing Service',
         paraText:'We provide good and effective Plumbing service for both repair and whole sale service for your buildings and houses. All type of plumbing works can be sort it out.',
         img:img2,
     },

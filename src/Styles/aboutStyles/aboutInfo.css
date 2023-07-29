@@ -1,0 +1,46 @@
+.aboutTxt{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 30px;
+}
+.aboutLeft{
+    background-color: black;
+    height: 300px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color:white;
+}
+.about-letter{
+    width: fit-content;
+    font-size: 45px;
+}
+.aboutPara{
+    text-align: justify;
+    margin: 10px 20px;
+    font-size: 20px;
+    padding: 20px;
+    height: 300px;
+    width: 70%;
+    background-color: rgb(153, 151, 153);
+}
+.aboutPara>h1{
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.aboutImg{
+    height: 300px;
+    width: 500px;
+    background: url('../../assets//home.jpg');
+    background-size: contain;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+}
+.aboutImg>span{
+    font-size: 20px;
+    font-weight: bolder;
+}

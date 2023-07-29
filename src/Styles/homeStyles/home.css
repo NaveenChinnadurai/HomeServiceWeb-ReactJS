@@ -3,6 +3,10 @@
     margin: 0px;
     box-sizing: border-box;
 }
+.home-div{
+    display: flex;
+    flex-direction: column;
+}
 .title{
     display:flex;
     flex-direction: column;

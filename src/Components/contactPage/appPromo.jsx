@@ -1,9 +1,8 @@
 import React from 'react'
-
-import promoImg from '../assets/promoImage.png';
-import playStoreImg from '../assets/playstore.png';
-import AppleStoreImg from '../assets/applestore.png';
-import "../Styles/homeStyles/AppPromo.css"
+import promoImg from '../../assets/promoImage.png';
+import playStoreImg from '../../assets/playstore.png';
+import AppleStoreImg from '../../assets/applestore.png';
+import '../../Styles/homeStyles/AppPromo.css'
 function AppPromo() {
   return (
     <div className="app-promo">

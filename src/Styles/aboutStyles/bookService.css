@@ -1,0 +1,40 @@
+.bookService{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+    margin: 10px;
+}
+.book{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    padding: 20px;
+    width: 40%;
+}
+.book>h2{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.book>input{
+    padding: 2px;
+    font-size: 18px;
+    width: fit-content;
+    margin: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.bookImg{
+    height: 200px;
+    border-radius: 50%;
+}
+.bookBtn{
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: rgb(58, 17, 206);
+    color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+}
